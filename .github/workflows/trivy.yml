@@ -36,7 +36,7 @@ jobs:
         run: |
           docker build -t alpine-latest -f alpine-latest.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "alpine-latest"
           format: "template"
@@ -62,7 +62,7 @@ jobs:
         run: |
           docker build -t rhel8-minimal -f rhel8-minimal.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "rhel8-minimal"
           format: "template"
@@ -88,7 +88,7 @@ jobs:
         run: |
           docker build -t rhel9-minimal -f rhel9-minimal.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "rhel9-minimal"
           format: "template"
@@ -114,7 +114,7 @@ jobs:
         run: |
           docker build -t rhel10-minimal -f rhel10-minimal.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "rhel10-minimal"
           format: "template"
@@ -140,7 +140,7 @@ jobs:
         run: |
           docker build -t ubuntu-22-04 -f ubuntu-22-04.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "ubuntu-22-04"
           format: "template"
@@ -166,7 +166,7 @@ jobs:
         run: |
           docker build -t ubuntu-24-04 -f ubuntu-24-04.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "ubuntu-24-04"
           format: "template"
@@ -192,7 +192,7 @@ jobs:
         run: |
           docker build -t ubuntu-26-04 -f ubuntu-26-04.dockerfile .
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
           image-ref: "ubuntu-26-04"
           format: "template"
