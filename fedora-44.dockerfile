@@ -1,4 +1,4 @@
-# Use fedora:46
-FROM fedora:46
+# Use fedora:44
+FROM fedora:44
 
 CMD ["/bin/bash", "-c", "tail -f /dev/null"]
