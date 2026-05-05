@@ -15,6 +15,6 @@ RUN apk update && \
         zlib \
         openssl \
         musl \
-        nodejs-current npm
+        nodejs npm
 
 CMD ["/bin/bash", "-c", "tail -f /dev/null"]
