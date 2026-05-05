@@ -17,7 +17,7 @@ on:
   merge_group:
     branches: [ "main" ]
   schedule:
-    - cron: "23 13 * * 0"
+    - cron: "23 13 * * *"
   push:
     branches: [ "main" ]
 
