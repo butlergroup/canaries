@@ -3,7 +3,7 @@ FROM alpine:latest
 
 # Enable community edge repo
 RUN printf "%s%s%s%s\n" \
-        "http://dl-cdn.alpinelinux.org/alpine/edge/community" \
+        "https://dl-cdn.alpinelinux.org/alpine/edge/main" \
         | tee -a /etc/apk/repositories
 
 # Install nodejs & npm
