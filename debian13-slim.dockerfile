@@ -1,4 +1,4 @@
 # Use Debian 13 image
-FROM dhi.io/debian-base:trixie
+FROM debian:trixie-slim
 
 CMD ["/bin/bash", "-c", "tail -f /dev/null"]

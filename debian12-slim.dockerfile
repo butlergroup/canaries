@@ -1,4 +1,4 @@
 # Use Debian 12 image
-FROM dhi.io/debian-base:bookworm
+FROM debian:bookworm-slim
 
 CMD ["/bin/bash", "-c", "tail -f /dev/null"]
