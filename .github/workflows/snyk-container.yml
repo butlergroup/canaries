@@ -61,7 +61,7 @@ jobs:
           image: alpine-latest
           args: --file=alpine-latest.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -96,7 +96,7 @@ jobs:
           image: rhel8-minimal
           args: --file=rhel8-minimal.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -131,7 +131,7 @@ jobs:
           image: rhel9-minimal
           args: --file=rhel9-minimal.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -166,7 +166,7 @@ jobs:
           image: rhel10-minimal
           args: --file=rhel10-minimal.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -201,7 +201,7 @@ jobs:
           image: ubuntu-22-04
           args: --file=ubuntu-22-04.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -236,7 +236,7 @@ jobs:
           image: ubuntu-24-04
           args: --file=ubuntu-24-04.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -271,7 +271,7 @@ jobs:
           image: ubuntu-26-04
           args: --file=ubuntu-26-04.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
 
@@ -306,6 +306,6 @@ jobs:
           image: flatcar-stable
           args: --file=flatcar-stable.dockerfile
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba # v4.35.5
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # v4.36.0
         with:
           sarif_file: snyk.sarif
